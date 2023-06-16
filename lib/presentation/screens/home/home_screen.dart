@@ -52,6 +52,7 @@ class CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       trailing: Icon(Icons.arrow_forward_ios, color: colors.primary),
+      onTap: () {},
     );
   }
 }
