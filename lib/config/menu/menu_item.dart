@@ -34,15 +34,19 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Indicadores en pantalla',
       link: '/snackbars',
       icon: Icons.info_outline),
-  
   MenuItem(
       title: 'Animated Container',
       subtitle: 'Animaciones en container',
       link: '/animatedContainer',
       icon: Icons.check_box_outline_blank_outlined),
-      MenuItem(
+  MenuItem(
       title: 'Ui controls',
       subtitle: 'Multiples controles de usuario',
       link: '/ui-controls',
+      icon: Icons.input_outlined),
+  MenuItem(
+      title: 'Turoail de app',
+      subtitle: 'Tutorial paso a paso',
+      link: '/tutorial',
       icon: Icons.input_outlined),
 ];
