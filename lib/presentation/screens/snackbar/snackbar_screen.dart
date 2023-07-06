@@ -42,18 +42,21 @@ class SnackbarScreen extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Snackbars'),
         ),
-        body: Column(
-          children: [
-            FilledButton.tonal(onPressed: (){
-              showAboutDialog(context: context,children: [
-                const Text('este es el texto del cuerpo del dialogo')
-              ]);
-            }, 
-            child: const Text('Licencias usadas')),
-            const SizedBox(height: 20,),
-            FilledButton.tonal(onPressed: ()=> mostrarDialog(context), 
-            child: const Text('Mostrar Dialogo'))
-          ],
+        body: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              FilledButton.tonal(onPressed: (){
+                showAboutDialog(context: context,children: [
+                  const Text('este es el texto del cuerpo del dialogo')
+                ]);
+              }, 
+              child: const Text('Licencias usadas')),
+              const SizedBox(height: 20,),
+              FilledButton.tonal(onPressed: ()=> mostrarDialog(context), 
+              child: const Text('Mostrar Dialogo'))
+            ],
+          ),
         ),
         floatingActionButton: FloatingActionButton.extended(
           onPressed: () => showSnackBar(context),
