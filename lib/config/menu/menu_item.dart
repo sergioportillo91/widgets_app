@@ -40,4 +40,9 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Animaciones en container',
       link: '/animatedContainer',
       icon: Icons.check_box_outline_blank_outlined),
+      MenuItem(
+      title: 'Ui controls',
+      subtitle: 'Multiples controles de usuario',
+      link: '/ui-controls',
+      icon: Icons.input_outlined),
 ];
