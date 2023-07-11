@@ -54,4 +54,14 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Scroll infinito',
       link: '/infinitescroll',
       icon: Icons.list_alt),
+  MenuItem(
+      title: 'Contador App',
+      subtitle: 'Contador de unidades',
+      link: '/counter',
+      icon: Icons.control_point_duplicate_rounded),
+  MenuItem(
+      title: 'Cambiar el tema',
+      subtitle: 'Pantalla para cambiar el tema',
+      link: '/theme_changer',
+      icon: Icons.color_lens_outlined),
 ];
